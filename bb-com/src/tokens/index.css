@@ -1,0 +1,12 @@
+/* tokens/index.css */
+
+/* Primitives */
+@import './primitives/colour.css';
+@import './primitives/size.css';
+
+/* Semantics */
+@import './semantics/surface.css';
+@import './semantics/text-stroke.css';
+
+/* Size & Spacing */
+@import './size/index.css';

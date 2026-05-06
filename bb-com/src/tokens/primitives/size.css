@@ -1,0 +1,21 @@
+/* tokens/primitives/size.css */
+:root {
+  --size-2: 2px;
+  --size-4: 4px;
+  --size-8: 8px;
+  --size-12: 12px;
+  --size-16: 16px;
+  --size-24: 24px;
+  --size-32: 32px;
+  --size-48: 48px;
+  --size-64: 64px;
+  --size-128: 128px;
+}
+
+/* tokens/primitives/typography.css */
+:root {
+  --typography-family-sans: 'BB Sans II', Arial, sans-serif;
+  --typography-family-sans-fallback: Arial;
+  --typography-weight-regular: 400;
+  --typography-weight-medium: 500;
+}

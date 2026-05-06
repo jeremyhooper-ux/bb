@@ -1,0 +1,33 @@
+/* tokens/semantics/text.css */
+:root {
+  --text-default-primary: var(--colour-grey-900);
+  --text-default-secondary: var(--colour-alpha-black-60);
+  --text-default-disabled: var(--colour-alpha-grey-800-20);
+  --text-invert-primary: var(--colour-core-white);
+  --text-invert-secondary: var(--colour-grey-600);
+  --text-invert-disabled: var(--colour-alpha-white-40);
+}
+
+[data-theme="dark"] {
+  --text-default-primary: var(--colour-core-white);
+  --text-default-secondary: var(--colour-alpha-white-60);
+  --text-default-disabled: var(--colour-alpha-grey-200-20);
+  --text-invert-primary: var(--colour-grey-900);
+  --text-invert-secondary: var(--colour-grey-600);
+  --text-invert-disabled: var(--colour-grey-200);
+}
+
+/* tokens/semantics/stroke.css */
+:root {
+  --stroke-default-primary: var(--colour-grey-100);
+  --stroke-default-secondary: var(--colour-grey-200);
+  --stroke-invert-primary: var(--colour-grey-800);
+  --stroke-invert-secondary: var(--colour-grey-700);
+}
+
+[data-theme="dark"] {
+  --stroke-default-primary: var(--colour-grey-800);
+  --stroke-default-secondary: var(--colour-grey-700);
+  --stroke-invert-primary: var(--colour-grey-100);
+  --stroke-invert-secondary: var(--colour-grey-200);
+}

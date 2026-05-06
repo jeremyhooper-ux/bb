@@ -1,0 +1,78 @@
+/* tokens/primitives/colour.css */
+:root {
+  /* Core */
+  --colour-core-white: #ffffff;
+  --colour-core-blue: #33a0f9;
+  --colour-core-sky: #c9daf0;
+  --colour-core-yellow: #f9ef34;
+  --colour-core-burnt: #d1692f;
+  --colour-core-orange: #e08c5c;
+  --colour-core-green: #41bd62;
+  --colour-core-pink: #df5fde;
+
+  /* Grey */
+  --colour-grey-100: #fafafa;
+  --colour-grey-200: #ededed;
+  --colour-grey-600: #919191;
+  --colour-grey-700: #6b6b6b;
+  --colour-grey-800: #2d2d2d;
+  --colour-grey-900: #121212;
+
+  /* Green */
+  --colour-green-100: #effbef;
+  --colour-green-200: #eafaea;
+  --colour-green-300: #dcf6dc;
+  --colour-green-400: #c8f1c9;
+  --colour-green-500: #99e59f;
+  --colour-green-600: #6cda76;
+  --colour-green-700: #46a758;
+  --colour-green-800: #388e4a;
+  --colour-green-900: #297c3b;
+  --colour-green-1000: #1b311e;
+
+  /* Amber */
+  --colour-amber-100: #fff6e5;
+  --colour-amber-200: #fff4d5;
+  --colour-amber-300: #fef0cd;
+  --colour-amber-400: #ffdd8f;
+  --colour-amber-500: #ffc96b;
+  --colour-amber-600: #f5b047;
+  --colour-amber-700: #ffb224;
+  --colour-amber-800: #ff990a;
+  --colour-amber-900: #a35200;
+  --colour-amber-1000: #4e2009;
+
+  /* Red */
+  --colour-red-100: #fff0f0;
+  --colour-red-200: #ffebeb;
+  --colour-red-300: #ffe5e5;
+  --colour-red-400: #fdd8d8;
+  --colour-red-500: #f8baba;
+  --colour-red-600: #f87274;
+  --colour-red-700: #e5484d;
+  --colour-red-800: #da3036;
+  --colour-red-900: #ca2a30;
+  --colour-red-1000: #381316;
+
+  /* Blue */
+  --colour-blue-100: #f0f7ff;
+  --colour-blue-200: #edf6ff;
+  --colour-blue-300: #e1f0ff;
+  --colour-blue-400: #cde7ff;
+  --colour-blue-500: #99ceff;
+  --colour-blue-600: #0b7bfe;
+  --colour-blue-700: #0070f3;
+  --colour-blue-800: #0060d1;
+  --colour-blue-900: #0067d6;
+  --colour-blue-1000: #00254d;
+
+  /* Alpha */
+  --colour-alpha-white-40: rgba(255, 255, 255, 0.6);
+  --colour-alpha-white-60: rgba(255, 255, 255, 0.4);
+  --colour-alpha-black-40: rgba(18, 18, 18, 0.4);
+  --colour-alpha-black-60: rgba(18, 18, 18, 0.6);
+  --colour-alpha-grey-200-20: rgba(237, 237, 237, 0.2);
+  --colour-alpha-grey-200-50: rgba(237, 237, 237, 0.5);
+  --colour-alpha-grey-800-20: rgba(45, 45, 45, 0.2);
+  --colour-alpha-grey-800-50: rgba(45, 45, 45, 0.5);
+}

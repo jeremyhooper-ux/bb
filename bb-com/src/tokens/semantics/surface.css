@@ -1,0 +1,30 @@
+/* tokens/semantics/surface.css */
+:root {
+  --surface-background-primary: var(--colour-core-white);
+  --surface-background-secondary: var(--colour-grey-100);
+  --surface-background-tertiary: var(--colour-grey-200);
+  --surface-background-blur: var(--colour-alpha-grey-200-50);
+  --surface-chrome-primary: var(--colour-core-white);
+  --surface-chrome-secondary: var(--colour-grey-100);
+  --surface-button-primary-default: var(--colour-grey-800);
+  --surface-button-primary-hover: var(--colour-grey-900);
+  --surface-button-primary-disabled: var(--colour-grey-800);
+  --surface-button-secondary-default: var(--colour-grey-100);
+  --surface-button-secondary-hover: var(--colour-grey-200);
+  --surface-button-secondary-disabled: var(--colour-grey-100);
+}
+
+[data-theme="dark"] {
+  --surface-background-primary: var(--colour-grey-900);
+  --surface-background-secondary: var(--colour-grey-800);
+  --surface-background-tertiary: var(--colour-grey-700);
+  --surface-background-blur: var(--colour-alpha-grey-800-50);
+  --surface-chrome-primary: var(--colour-grey-900);
+  --surface-chrome-secondary: var(--colour-grey-800);
+  --surface-button-primary-default: var(--colour-grey-200);
+  --surface-button-primary-hover: var(--colour-grey-100);
+  --surface-button-primary-disabled: var(--colour-grey-200);
+  --surface-button-secondary-default: var(--colour-grey-800);
+  --surface-button-secondary-hover: var(--colour-grey-700);
+  --surface-button-secondary-disabled: var(--colour-grey-800);
+}

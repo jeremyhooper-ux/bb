@@ -1,0 +1,105 @@
+/* tokens/size/grid.css — responsive grid tokens */
+:root {
+  --grid-margin: var(--size-16);
+  --grid-gutter: var(--size-8);
+  --grid-columns: 12;
+  --device-width: 1440px;
+  --device-height: 900px;
+}
+
+/* tokens/size/spacing.css */
+:root {
+  --spacing-gap-xxs: var(--size-2);
+  --spacing-gap-xs: var(--size-4);
+  --spacing-gap-sm: var(--size-8);
+  --spacing-gap-md: var(--size-12);
+  --spacing-gap-lg: var(--size-16);
+  --spacing-gap-xl: var(--size-24);
+  --spacing-gap-xxl: var(--size-32);
+  --spacing-gap-xxxl: var(--size-64);
+  --spacing-padding-xss: var(--size-4);
+  --spacing-padding-xs: var(--size-8);
+  --spacing-padding-sm: var(--size-12);
+  --spacing-padding-md: var(--size-16);
+  --spacing-padding-lg: var(--size-24);
+  --spacing-padding-xl: var(--size-32);
+  --spacing-padding-xxl: var(--size-48);
+  --spacing-module-padding-sm: var(--size-32);
+  --spacing-module-padding-md: var(--size-64);
+  --spacing-module-padding-lg: 256px;
+}
+
+@media (max-width: 744px) {
+  :root {
+    --spacing-gap-xxxl: var(--size-32);
+    --spacing-module-padding-sm: var(--size-16);
+    --spacing-module-padding-md: var(--size-32);
+    --spacing-module-padding-lg: 128px;
+  }
+}
+
+/* tokens/size/radius.css */
+:root {
+  --radius-xs: var(--size-2);
+  --radius-sm: var(--size-4);
+  --radius-md: var(--size-8);
+  --radius-lg: var(--size-16);
+  --radius-xl: var(--size-24);
+  --radius-full: 9999px;
+}
+
+/* tokens/size/stroke.css */
+:root {
+  --stroke-width-primary: 1px;
+  --stroke-width-focussed: 2px;
+}
+
+/* tokens/size/typography.css — responsive type scale */
+:root {
+  --typography-font-size-heading-lg: 50px;
+  --typography-font-size-heading-md: 32px;
+  --typography-font-size-body-lg: 24px;
+  --typography-font-size-body-md: 14px;
+  --typography-font-size-body-sm: 10px;
+
+  --typography-line-height-heading-lg: 56px;
+  --typography-line-height-heading-md: 36px;
+  --typography-line-height-body-lg: 28px;
+  --typography-line-height-body-md: 20px;
+  --typography-line-height-body-sm: 12px;
+
+  --typography-letter-spacing-heading-lg: -1px;
+  --typography-letter-spacing-heading-md: -0.5px;
+  --typography-letter-spacing-heading-sm: 0px;
+  --typography-letter-spacing-body-lg: 0px;
+  --typography-letter-spacing-body-md: 0px;
+  --typography-letter-spacing-body-sm: 0px;
+}
+
+@media (min-width: 1728px) {
+  :root {
+    --typography-font-size-heading-lg: 64px;
+    --typography-line-height-heading-lg: 72px;
+  }
+}
+
+@media (max-width: 744px) {
+  :root {
+    --typography-font-size-heading-lg: 36px;
+    --typography-font-size-heading-md: 28px;
+    --typography-font-size-body-lg: 22px;
+    --typography-line-height-heading-lg: 40px;
+    --typography-line-height-heading-md: 32px;
+    --typography-line-height-body-lg: 24px;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --typography-font-size-heading-lg: 28px;
+    --typography-font-size-heading-md: 26px;
+    --typography-font-size-body-lg: 20px;
+    --typography-line-height-heading-lg: 32px;
+    --typography-line-height-heading-md: 32px;
+  }
+}
